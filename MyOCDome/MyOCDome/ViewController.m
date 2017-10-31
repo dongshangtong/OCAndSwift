@@ -48,6 +48,11 @@
     
     [_dataSource addObject:dic1];
     
+    
+    NSDictionary *dic2 = @{@"name":@"验证码",@"Controller":@"ValidationViewController"};
+    
+    [_dataSource addObject:dic2];
+    
 }
 
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0840C50B1FA813E400C9F80B /* DQValidationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0840C50A1FA813E400C9F80B /* DQValidationView.m */; };
+		0840C50E1FA81CF500C9F80B /* ValidationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0840C50D1FA81CF500C9F80B /* ValidationViewController.m */; };
 		084CB2E51FA71E1C001C14FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 084CB2E41FA71E1C001C14FB /* AppDelegate.m */; };
 		084CB2E81FA71E1C001C14FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 084CB2E71FA71E1C001C14FB /* ViewController.m */; };
 		084CB2EB1FA71E1C001C14FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 084CB2E91FA71E1C001C14FB /* Main.storyboard */; };
@@ -41,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0840C5091FA813E400C9F80B /* DQValidationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQValidationView.h; sourceTree = "<group>"; };
+		0840C50A1FA813E400C9F80B /* DQValidationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQValidationView.m; sourceTree = "<group>"; };
+		0840C50C1FA81CF500C9F80B /* ValidationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValidationViewController.h; sourceTree = "<group>"; };
+		0840C50D1FA81CF500C9F80B /* ValidationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValidationViewController.m; sourceTree = "<group>"; };
 		084CB2E01FA71E1C001C14FB /* MyOCDome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOCDome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		084CB2E31FA71E1C001C14FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		084CB2E41FA71E1C001C14FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0840C5081FA8137C00C9F80B /* DQValidationView */ = {
+			isa = PBXGroup;
+			children = (
+				0840C5091FA813E400C9F80B /* DQValidationView.h */,
+				0840C50A1FA813E400C9F80B /* DQValidationView.m */,
+			);
+			path = DQValidationView;
+			sourceTree = "<group>";
+		};
 		084CB2D71FA71E1C001C14FB = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +134,7 @@
 		084CB2E21FA71E1C001C14FB /* MyOCDome */ = {
 			isa = PBXGroup;
 			children = (
+				0840C5081FA8137C00C9F80B /* DQValidationView */,
 				084CB3151FA723F9001C14FB /* DQShineButton */,
 				084CB2E31FA71E1C001C14FB /* AppDelegate.h */,
 				084CB2E41FA71E1C001C14FB /* AppDelegate.m */,
@@ -126,6 +142,8 @@
 				084CB2E71FA71E1C001C14FB /* ViewController.m */,
 				084CB3251FA725BE001C14FB /* ShineButtonViewController.h */,
 				084CB3261FA725BE001C14FB /* ShineButtonViewController.m */,
+				0840C50C1FA81CF500C9F80B /* ValidationViewController.h */,
+				0840C50D1FA81CF500C9F80B /* ValidationViewController.m */,
 				084CB2E91FA71E1C001C14FB /* Main.storyboard */,
 				084CB2EC1FA71E1C001C14FB /* Assets.xcassets */,
 				084CB2EE1FA71E1C001C14FB /* LaunchScreen.storyboard */,
@@ -305,10 +323,12 @@
 			files = (
 				084CB2E81FA71E1C001C14FB /* ViewController.m in Sources */,
 				084CB3271FA725BE001C14FB /* ShineButtonViewController.m in Sources */,
+				0840C50E1FA81CF500C9F80B /* ValidationViewController.m in Sources */,
 				084CB2F31FA71E1C001C14FB /* main.m in Sources */,
 				084CB3241FA72434001C14FB /* DQShineLayer.m in Sources */,
 				084CB3211FA72434001C14FB /* DQShineAngleLayer.m in Sources */,
 				084CB3201FA72434001C14FB /* DQShineButton.m in Sources */,
+				0840C50B1FA813E400C9F80B /* DQValidationView.m in Sources */,
 				084CB3221FA72434001C14FB /* DQShineParams.m in Sources */,
 				084CB3231FA72434001C14FB /* DQShineClickLayer.m in Sources */,
 				084CB2E51FA71E1C001C14FB /* AppDelegate.m in Sources */,
